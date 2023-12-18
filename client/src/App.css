@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+}
+
+.url-text-box {
+  margin-top: 25px;
+}
+
+.url-dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.url-card {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.url-card-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

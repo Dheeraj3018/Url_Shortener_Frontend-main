@@ -1,0 +1,96 @@
+body {
+  margin: 0px;
+}
+
+.login-page,
+.signup,
+.forget-password,
+.new-password {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0px auto;
+}
+
+.login-page-content,
+.signup-page-content,
+.new-password-content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.login,
+.signup,
+.forget-password,
+.new-password {
+  margin-top: 150px;
+}
+
+.success-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  align-items: center;
+}
+
+img {
+  object-fit: contain;
+}
+
+.forget-password-textfiled {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.forget-password-button {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.forget-password-link {
+  cursor: pointer;
+}
+
+.otp-page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+  gap: 1rem;
+  margin: 0px auto;
+}
+
+.otp-page-button {
+  display: flex;
+  gap: 8px;
+}
+.otp-page-content,
+.otp-page {
+  margin-top: 10px;
+}
+
+.not-found-img {
+  min-width: auto;
+  min-height: 90vh;
+}
+
+.not-found {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.not-fount-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15vh;
+  font-size: 25px;
+}
